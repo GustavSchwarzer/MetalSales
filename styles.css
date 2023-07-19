@@ -133,27 +133,25 @@ header{
     width: 100%;
 }
 
-#title-home{
+#title-home {
     text-align: center;
-    margin: auto;
+    margin: 0;
     color: aliceblue;
-    text-shadow: 0 0 10px rgba(255,255,255, 0.35);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
+    margin-bottom: 20px;
 }
 
-.home > .text{
+.home > .text {
+    
     color: aliceblue;
     font-size: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    
-    flex-wrap: wrap;
+    margin: 10 auto;
     text-align: center;
-    text-shadow: 0 0 10px rgba(255,255,255, 0.35);
-    height: 40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
 }
+
 
 
 
